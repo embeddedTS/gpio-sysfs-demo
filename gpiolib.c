@@ -77,6 +77,8 @@ int gpio_setedge(int gpio, int rising, int falling)
 	}
 
 	close(gpiofd);
+
+    return ret;
 }
 
 int gpio_export(int gpio)
