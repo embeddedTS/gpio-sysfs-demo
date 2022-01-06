@@ -2,7 +2,7 @@
 * gpiodemo.c
 * 
 * A very simple demo of using the GPIO sysfs interface under Linux by using 
-* gpiolib library from Technologic Systems.  This can be applied generically to
+* gpiolib library from embeddedTS.  This can be applied generically to
 * any computer utilizing the GPIO sysfs interface.  This specific code block was
 * written on a TS-7970, where gpio_pin #59 is connected to a breadboard LED. One
 * could also use `gcc -D CTL gpiolib.c -o gpioctl` or `make` to bypass the need
@@ -20,9 +20,9 @@
 *   - int gpio_getfd(int gpio);
 * 
 * Sources:
-*   - https://github.com/embeddedarm/ts4900-utils/blob/master/src/gpiolib.h
-*   - https://github.com/embeddedarm/ts4900-utils/blob/master/src/gpiolib.c
-*   - http://wiki.embeddedarm.com/wiki/TS-7970#GPIO
+*   - https://github.com/embeddedTS/ts4900-utils/blob/master/src/gpiolib.h
+*   - https://github.com/embeddedTS/ts4900-utils/blob/master/src/gpiolib.c
+*   - http://wiki.embeddedTS.com/wiki/TS-7970#GPIO
 *   - https://www.kernel.org/doc/Documentation/gpio/sysfs.txt
 * *******************************************************************************/
 #include <stdlib.h>
